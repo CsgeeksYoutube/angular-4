@@ -1,0 +1,10 @@
+<a routerLink="/user">USER</a>
+
+<h1 RedColor>Hello Frnd this is CSgeeks</h1>
+
+<div *ngIf="visible;else oddClicked">This is true</div>
+<button (click)="changeDiv()">Change</button>
+
+<ng-template #evenClicked>hello frnd even clicked</ng-template>
+<ng-template #oddClicked>hello frnd odd clicked</ng-template>
+
